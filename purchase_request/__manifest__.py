@@ -11,7 +11,8 @@
     'summary': 'Create purchase request',
     'website': 'https://www.gr-it.id',
     'images': ['static/description/icon.jpg'],
-    'depends': ['mail'],
+    'depends': ['mail',
+                'purchase'],
     'data': [
         'data/purchase_request_data.xml',
         'security/purchase_request_security.xml',
